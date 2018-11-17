@@ -44,7 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 	<div class="agileits_header">
 		<div class="w3l_offers">
-			<a href="products.html">Today's special Offers !</a>
+			<a href="/products">Today's special Offers !</a>
 		</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</ul>
 		</div>
 		<div class="w3l_header_right1">
-			<h2><a href="mail.php">Contact Us</a></h2>
+			<h2><a href="/mail">Contact Us</a></h2>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -100,14 +100,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="logo_products">
 		<div class="container">
 			<div class="w3ls_logo_products_left">
-				<h1><a href="index.php"><span>MIZY Grocery</span> Store</a></h1>
+				<h1><a href="/"><span>MIZY Grocery</span> Store</a></h1>
 			</div>
 			<div class="w3ls_logo_products_left1">
 				<ul class="special_items">
-					<li><a href="events.html">Events</a><i>/</i></li>
-					<li><a href="about.html">About Us</a><i>/</i></li>
+					<li><a href="/events">Events</a><i>/</i></li>
+					<li><a href="/about_us">About Us</a><i>/</i></li>
 					<li><a href="products.html">Best Deals</a><i>/</i></li>
-					<li><a href="services.html">Services</a></li>
+					<li><a href="/services">Services</a></li>
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left1">
@@ -134,37 +134,68 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  </button>
 			   </div> 
 			   <!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+			   <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav nav_1">
-						<li><a href="products.html">Branded Foods</a></li>
-						<li><a href="household.html">Households</a></li>
-						<li class="dropdown mega-dropdown active">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Veggies & Fruits<span class="caret"></span></a>				
+                    <li class="dropdown mega-dropdown active">
+							<a href="vegetables.html" class="dropdown-toggle" data-toggle="dropdown">Foods<span class="caret"></span></a>				
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
 								<div class="w3ls_vegetables">
 									<ul>	
-										<li><a href="vegetables.html">Vegetables</a></li>
-										<li><a href="vegetables.html">Fruits</a></li>
+										<li><a href="/products">Breakfast</a></li>
+										<li><a href="vegetables.html">Beverages</a></li>
+                                        <li><a href="vegetables.html">Meat & Fish</a></li>
+                                        <li><a href="vegetables.html">Snacks</a></li>
+                                        <li><a href="vegetables.html">Frozen & Canned</a></li>
+                                        <li><a href="vegetables.html">Cooking</a></li>
+                                        <li><a href="vegetables.html">Bread & Bakery</a></li>
+
 									</ul>
 								</div>                  
 							</div>				
 						</li>
-						<li><a href="kitchen.html">Kitchen</a></li>
-						<li><a href="short-codes.html">Short Codes</a></li>
+						
+						<li class="dropdown mega-dropdown active">
+							<a href="/cleaning" class="dropdown-toggle" data-toggle="dropdown">Home & Cleaning<span class="caret"></span></a>				
+							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
+								<div class="w3ls_vegetables">
+									<ul>	
+										<li><a href="air_fresheners">Air Fresheners</a></li>
+										<li><a href="dish_detergents">Dish Ditergents</a></li>
+                                        <li><a href="shoe_care">Shoe Care</a></li>
+                                        <li><a href="/laundry">Laundry</a></li>
+                                        <li><a href="/paper_products">Napkin & Paper Products</a></li>
+									</ul>
+								</div>                  
+							</div>				
+						</li>
+						<li><a href="kitchen.html">Office Products</a></li>
+						<li><a href="short-codes.html">Beauty & Health</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Beverages<span class="caret"></span></a>
+							<a href="vegetables.html" class="dropdown-toggle" data-toggle="dropdown">Baby Care<span class="caret"></span></a>
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
 								<div class="w3ls_vegetables">
 									<ul>
-										<li><a href="drinks.html">Soft Drinks</a></li>
-										<li><a href="drinks.html">Juices</a></li>
+										<li><a href="drinks.html">Diapers & Wipers</a></li>
+										<li><a href="drinks.html">Feeders</a></li>
 									</ul>
 								</div>                  
 							</div>	
 						</li>
-						<li><a href="pet.html">Pet Food</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Frozen Foods<span class="caret"></span></a>
+							<a href="vegetables.html" class="dropdown-toggle" data-toggle="dropdown">Pet Foods<span class="caret"></span></a>
+							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
+								<div class="w3ls_vegetables">
+									<ul>
+										<li><a href="frozen.html">Kitten Food</a></li>
+										<li><a href="frozen.html">Cat Food</a></li>
+                                        <li><a href="frozen.html">Dog Food</a></li>
+                                        <li><a href="frozen.html">Other Pet Food</a></li>
+									</ul>
+								</div>                  
+							</div>	
+						</li>
+						<li class="dropdown">
+							<a href="vegetables.html" class="dropdown-toggle" data-toggle="dropdown">Frozen Foods<span class="caret"></span></a>
 							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
 								<div class="w3ls_vegetables">
 									<ul>
@@ -174,9 +205,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>                  
 							</div>	
 						</li>
-						<li><a href="bread.html">Bread & Bakery</a></li>
+                        <li class="dropdown">
+							<a href="vegetables.html" class="dropdown-toggle" data-toggle="dropdown">Home Appliances<span class="caret"></span></a>
+							<div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
+								<div class="w3ls_vegetables">
+									<ul>
+										<li><a href="drinks.html">Lights & Electrical</a></li>
+										<li><a href="drinks.html">Tools & Hardware</a></li>
+                                        <li><a href="drinks.html">Kitchen App;iances</a></li>
+                                    </ul>
+								</div>                  
+							</div>	
+						</li>
 					</ul>
 				 </div><!-- /.navbar-collapse -->
+				
 			</nav>
 		</div>
 		<div class="w3l_banner_nav_right">
@@ -278,7 +321,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<h4>$7.99 <span>$10.00</span></h4>
 										</div>
 										<div class="snipcart-details top_brand_home_details">
-											<form action="checkout.html" method="post">
+											<form action="/checkout" method="post">
 												<fieldset>
 													<input type="hidden" name="cmd" value="_cart" />
 													<input type="hidden" name="add" value="1" />
@@ -419,16 +462,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 w3l_fresh_vegetables_grid w3l_fresh_vegetables_grid_left">
 					<div class="w3l_fresh_vegetables_grid2">
 						<ul>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">All Brands</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="vegetables.html">Vegetables</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="vegetables.html">Fruits</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="drinks.html">Juices</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="pet.html">Pet Food</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="bread.html">Bread & Bakery</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="household.html">Cleaning</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Spices</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Dry Fruits</a></li>
-							<li><i class="fa fa-check" aria-hidden="true"></i><a href="products.html">Dairy Products</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/products">All Brands</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/vegetables">Vegetables</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/vegetables">Fruits</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/drinks">Juices</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/petl">Pet Food</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/bread">Bread & Bakery</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/household">Cleaning</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/products">Spices</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/products">Dry Fruits</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a href="/products">Dairy Products</a></li>
 						</ul>
 					</div>
 				</div>

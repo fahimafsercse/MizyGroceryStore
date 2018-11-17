@@ -14,3 +14,4 @@
 Route::get('/', 'HomeController@index');
 Route::get('/mail', 'HomeController@mail');
 Route::get('/products', 'HomeController@product');
+Route::get('/checkout', 'HomeController@checkout');

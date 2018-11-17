@@ -24,4 +24,18 @@ class HomeController extends Controller
         //return view('frontend.index', compact('categories'));
         return view('frontend.product');
     }
+    public function checkout()
+    {
+        
+     //   $categories = Category::all();
+      //  return view('frontend.index', compact('categories'));
+        return view('frontend.checkout');
+	}
+	public function payment()
+    {
+        //$categories = Category::all();
+        //return view('frontend.index', compact('categories'));
+        return view('frontend.payment');
+    }
 }
+
